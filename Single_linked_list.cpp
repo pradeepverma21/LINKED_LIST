@@ -44,9 +44,7 @@ int main()
 			    break;
 			case 6:
 			    int exit(0);
-//			default: 
-//			    printf("\nInvalid option!!!");
-//				break;	    
+
 		}
 	}while(choice<7);
 	
@@ -65,7 +63,7 @@ void Create()
 	{
 		scanf("%d",&slinklist[i]);
 	}
-//	Display();
+	Display();
 }
 
 void Insert()
